@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Test practice windows handling",
+        "description": "",
+        "id": "test-toolsqa;test-practice-windows-handling",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35792537257,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Launch browser",
+            "match": {
+              "location": "TestWindowHandling.Launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1567994157,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Goto DemoSites",
+            "match": {
+              "location": "TestWindowHandling.Goto_DemoSites()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507857409,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Select practice swich windows",
+            "match": {
+              "location": "TestWindowHandling.Select_practice_swich_windows()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1754241153,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on New Browser Window 6 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 28
+                }
+              ],
+              "location": "TestWindowHandling.Click_on_New_Browser_Window_times(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257507615,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on New Message Window",
+            "match": {
+              "location": "TestWindowHandling.Click_on_New_Message_Window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12391801406,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate message",
+            "match": {
+              "location": "TestWindowHandling.Validate_message(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "message"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Knowledge increases by sharing but not by saving. Please share this website with your friends and in your organization."
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test ToolsQA",
+    "description": "",
+    "id": "test-toolsqa",
+    "keyword": "Feature",
+    "uri": "C:/Users/ASHOK/workspace/CucumberPractice/src/test/java/com/ToolsQA/Features/windowsFeature.feature"
+  }
+]

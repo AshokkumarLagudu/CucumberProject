@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.271939">
+<testcase classname="Test ToolsQA" name="Test practice windows handling" time="52.271939">
+<system-out><![CDATA[Given Launch browser........................................................passed
+When Goto DemoSites.........................................................passed
+Then Select practice swich windows..........................................passed
+Then Click on New Browser Window 6 times....................................passed
+Then Click on New Message Window............................................passed
+Then Validate message.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
